@@ -2,10 +2,8 @@
 
 chmod u+s /bin/ping
 
-# set network (without dhcpcd)
-killall dhcpcd
-
-while kill -0 $(pgrep dhcpcd)
+PD=$(pgrep dhcpcd)
+while kill $PD
 do
   printf .
   sleep 0.5
