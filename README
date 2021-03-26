@@ -1,4 +1,8 @@
+# vfsync.org scripts
+
 Notes about using vfsync.org:
 
  1. Use Firefox (but it works also in Chromium on Neverware, just slower)
  2. Run `sudo ./fixresolv.sh` script after logging in
+
+Hint: use https://getvau.lt to get a nice password.
